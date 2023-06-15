@@ -70,7 +70,8 @@ Heroku Dashboard'da, "Deploy" sekmesine gidin ve "Deployment Method" bölümünd
 Github hesabınızla Heroku hesabınızı bağlamak için "Connect to Github" düğmesine tıklayın.
 Github hesabınızda, Heroku'ya yükleyeceğiniz uygulamanın kaynak kodlarını içeren depoyu seçin.
 Heroku Dashboard'da, "Manual Deploy" bölümünde "Deploy Branch" düğmesine tıklayın.
-Bu adımları takip ettikten sonra, Github ve Heroku arasındaki bağlantı kurulmuş olacaktır. Artık, Github'daki depodaki değişiklikler Heroku'ya otomatik olarak yüklenecektir.
+Bu adımları takip ettikten sonra, Github ve Heroku arasındaki bağlantı kurulmuş olacaktır.
+Artık, Github'daki depodaki değişiklikler Heroku'ya otomatik olarak yüklenecektir.
 ````
 
 This is the source code for a very simple chat example used for
