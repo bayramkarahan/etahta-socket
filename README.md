@@ -63,7 +63,7 @@ ioClient.on("seq-num", (msg) => console.info(msg));
 Github ve Heroku arasındaki bağlantıyı kurmak oldukça kolaydır. İlk olarak, Github hesabınızda bir depo oluşturmanız gerekir. Bu depo, Heroku'ya yükleyeceğiniz uygulamanın kaynak kodlarını içerecektir. Ardından, Heroku hesabınızda bir uygulama oluşturmanız gerekir. Bu uygulama, Github'daki depodan alınan kaynak kodlarını barındıracaktır.
 
 Github ve Heroku arasındaki bağlantıyı kurmak için aşağıdaki adımları izleyebilirsiniz:
-
+````
 Github hesabınızda bir depo oluşturun.
 Heroku hesabınızda bir uygulama oluşturun.
 Heroku Dashboard'da, "Deploy" sekmesine gidin ve "Deployment Method" bölümünde "Github" seçeneğini seçin.
@@ -71,7 +71,7 @@ Github hesabınızla Heroku hesabınızı bağlamak için "Connect to Github" d�
 Github hesabınızda, Heroku'ya yükleyeceğiniz uygulamanın kaynak kodlarını içeren depoyu seçin.
 Heroku Dashboard'da, "Manual Deploy" bölümünde "Deploy Branch" düğmesine tıklayın.
 Bu adımları takip ettikten sonra, Github ve Heroku arasındaki bağlantı kurulmuş olacaktır. Artık, Github'daki depodaki değişiklikler Heroku'ya otomatik olarak yüklenecektir.
-
+````
 
 This is the source code for a very simple chat example used for
 the [Getting Started](http://socket.io/get-started/chat/) guide
